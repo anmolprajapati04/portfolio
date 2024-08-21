@@ -1,0 +1,159 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="porfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    
+    <!-- Home Section -->
+    <section id="home" class="py-5" style="background: linear-gradient(135deg, #6bd0ff, #feca57);">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <div class="written_info text-light">
+                <h1 class="animate-text">Welcome to My Portfolio</h1>
+                <p>Hello! I'm Anmol, a BTech Computer Science Engineering student with a strong passion for technology and software development. My academic journey has been a thrilling exploration of programming languages, algorithms, data structures, and the ever-evolving world of web technologies.
+
+                    From the early days of my degree, I discovered a love for coding and problem-solving. I thrive on the challenge of transforming complex concepts into practical, user-friendly solutions. </p>
+            </div>
+            <img src="./robinson-169hero-portfolio-shutterstock.webp" height="350px" width="350px" class="home-image rounded shadow">
+        </div>
+    </section>
+    
+    <!-- About Section -->
+   <!-- About Section -->
+<section id="about" class="py-5 bg-light">
+    <div class="container">
+        <h1 class="text-primary">About Me</h1>
+        <div class="row align-items-center">
+            <div class="col-md-6 order-md-1">
+                <div class="written_info">
+                    <p><strong>Programming Languages: </strong>Proficient in Python, C, and C++, with a strong foundation in Object-Oriented Programming (OOP) principles.<br>
+                        <strong>Problem Solving:</strong> Regularly enhance my coding skills by participating in basic coding programs and challenges, focusing on algorithm development and efficient coding practices.<br>
+                        <strong>Achievements:</strong><br>
+                        Active participant in coding platforms, where I consistently work on improving my problem-solving abilities and applying my knowledge to practical scenarios.<br>
+                        Dedicated to continuous learning, I engage in daily coding exercises to stay sharp and up-to-date with the latest programming trends.</p>
+                </div>
+            </div>
+            <div class="col-md-6 order-md-2">
+                <img src="./360_F_79327071_ubG3dWNUwUeVFqALg55FLqGpJFgfnoRY.jpg" height="350px" width="350px" class="img-fluid rounded shadow aboutme1">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+<section id="contact" class="py-5" style="background: linear-gradient(135deg, #fb7a48, #1dd1a1); position: relative;">
+    <div class="container text-light">
+        <h1>Contact Me</h1>
+        <h3>Interested in collaborating? Let's connect!</h3>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="contact-item">
+                    <img src="./images.png" class="contact-icon" height="40px" width="40px">
+                    <a href="https://www.linkedin.com/in/anmol-prajapati-726402314/"" target="_blank" class="text-light">LinkedIn</a>
+                </div>
+                <br>
+                <div class="contact-item">
+                    <img src="./images.jpeg" class="contact-icon" height="40px" width="40px">
+                    <a href="https://github.com/anmolprajapati04" target="_blank" class="text-light">GitHub</a>
+                </div>
+                <br>
+                <div class="contact-item">
+                    <img src="./gmail.png" class="contact-icon" height="40px" width="40px">
+                    <p>anmolprajapati802@gmail.com</p>
+                </div>
+        
+                <div class="contact-item">
+                    <img src="./7817.png" class="contact-icon" height="45px" width="45px">
+                    <p>+91 9350019143</p>
+                </div>
+                <div class="contact-item">
+                    <img src="./location.png" class="contact-icon" height="45px" width="45px">
+                    <p>#32 Krishna Nagar ,Ambala Cantt</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="contact-form bg-light p-4 rounded shadow">
+                    <h3 class="text-dark mb-4">Send Me a Message</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-bg-overlay"></div>
+</section>
+
+
+    <!-- Back to Top Button -->
+    <button onclick="topFunction()" id="backToTop" title="Go to top">↑</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        // Animate Text
+        document.addEventListener('DOMContentLoaded', () => {
+            const textElement = document.querySelector('.animate-text');
+            textElement.classList.add('fade-in');
+        });
+
+        // Back to Top Button
+        let mybutton = document.getElementById("backToTop");
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
